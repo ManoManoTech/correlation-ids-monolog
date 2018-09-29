@@ -1,0 +1,35 @@
+{
+    "name": "manomano-tech/correlation-ids-monolog",
+    "description": "Monolog processor for manomano-tech/correlation-ids package",
+    "keywords": [
+        "correlation",
+        "correlation-id",
+        "tracing",
+        "monolog",
+        "processor",
+        "log",
+        "plugin"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.1.3"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "ManoManoTech\\CorrelationIdMonolog\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ManoManoTech\\CorrelationIdMonolog\\Tests\\": "tests/"
+        }
+    }
+}
