@@ -39,5 +39,6 @@
         "psr-4": {
             "ManoManoTech\\CorrelationIdMonolog\\Tests\\": "tests/"
         }
-    }
+    },
+    "abandoned": "not maintained any more"
 }
